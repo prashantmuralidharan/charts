@@ -1,0 +1,65 @@
+.padding
+{
+padding-left:10%;
+width: 50%;
+}
+.margin
+{
+margin-top:40px;
+}
+.padding_left{
+  padding-left: 20%;
+}
+.color{
+  height: 20px;
+background-color: blue;
+}
+.bg_clr{
+
+  background-color: #ccc;
+}
+.padding1
+{
+  padding-left:10%;
+  width:50%;
+}
+.margin1
+{
+  margin-top:30px;
+}
+.color1
+{
+background-color:grey;
+}
+.margin-left
+{
+margin-left: 27%;
+}
+.margin-left-cancel
+{
+margin-left: 10%;
+}
+.padding-top{
+padding-top:55%;
+}
+.margin_top
+{
+margin-top:50px;
+}
+.margin2
+{
+margin-left:150px;
+}
+.margin3
+{
+margin-top:0px;
+}
+.colr1
+{
+color:blue;
+}
+.margin-top2
+{
+margin-top:20%;
+}
+}

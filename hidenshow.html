@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <script>
+$(document).ready(function(){
+    $(".hide").click(function(){
+        $("i").hide();
+    });
+    $(".show").click(function(){
+        $("i").show();
+    });
+}); -->
+</script>
+</head>
+<body>
+
+<img src="C:\Users\Admin\Desktop\a1.jpg" name="pic" onclick="test()"/>
+
+<script type="text/javascript">
+function test()
+{
+  alert(window.document.pic.src);
+   //alert msg print like http://localhost/test/pic1.png
+  if (document.pic.src=='http://localhost/test/pic1.png'){
+
+document.pic.src='pic2.png';
+}
+else if (document.pic.src=='http://localhost/test/pic2.png'){
+
+document.pic.src='pic1.png';
+}
+}
+</script>
+</body>
+</html>
